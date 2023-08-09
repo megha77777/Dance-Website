@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+#logo img{
+    height: 25px;
+    filter: invert();
+}
+#logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin: 0px 32px;
+}
+#navbar{
+    background-color: black;
+    padding: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 12px 18px;
+    color: white;
+    font-size: 18px;
+}
+#navbar li a:hover{
+    background-color: brown;
+    border-radius: 25px;
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 27px;
+    font-family:cursive;
+    background: url(static/bg.jpg) center/cover no-repeat;
+    padding-bottom: 50px;
+}
+#introSection div.small{
+    font-size: 18px;
+}
+#missionSection{
+    height: 300px;
+    /* display: block;
+    margin: auto;
+    width: 100%; */
+   
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 16px;
+    height: 190px;
+    width: 302px;
+    margin: 20px 57px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin-top: 10px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    padding: 12px;
+}
+.card-img img{
+    height: 120px;
+}
+.card-content{
+    padding: 12px;
+}
+.card-content p{
+    font-size: 18px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: rgba(242, 121, 121, 0.544)
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#sponsors{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+#sponsors img{
+    height: 150px;
+    margin: 15px;
+}
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: cursive;
+}

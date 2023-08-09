@@ -1,0 +1,14 @@
+git config --global user.name Megha
+git config --global user.email "meghacute786@gmail.com"
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git status
+git remote add origin git@github.com:megha77777/Dance-Website.git(by clicking SSH)
+// Now generate SSH keys
+git ssh-keygen -t ed25519 -C "your_email@example.com
+// Now it is generated
+//Now add this key to your github account
+cat /c/Users/dell/.ssh/id_rsa.pub(key has been saved in)(copy/paste)
+get push origin master
